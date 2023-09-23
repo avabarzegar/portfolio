@@ -11,14 +11,14 @@
 }
 
 .experience-description {
-    width: 100%;
-    flex: 0.65;
+    idth: 100%;
+    flex: 0.65 1;
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
-    margin-right: 2rem;
+    margin-left: 7%;
 }
 
 .experience-description > h1 {
