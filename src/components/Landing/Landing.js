@@ -177,7 +177,7 @@ function Landing() {
                                 </a>
                             )}
                             <NavLink
-                                to='/#contacts'
+                                to='#contacts'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
