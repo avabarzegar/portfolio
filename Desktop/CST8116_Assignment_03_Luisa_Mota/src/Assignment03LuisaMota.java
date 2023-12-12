@@ -27,8 +27,8 @@ public class Assignment03LuisaMota {
 		largestValue = rollResults[diceNum];
 		}
 		// display the results
-		for(int rollNum = 1; rollNum <= rollResults.length; ++rollNum) { // crashes
-		System.out.printf("Result of roll #%d is: %d%n", rollNum, rollResults[rollNum]);
+		for (int rollNum = 0; rollNum < rollResults.length; ++rollNum) {
+		    System.out.printf("Result of roll #%d is: %d%n", rollNum + 1, rollResults[rollNum]);
 		}
 		System.out.printf("Largest value = %d%n", largestValue);
 		System.out.println("Program by Luisa Mota");
