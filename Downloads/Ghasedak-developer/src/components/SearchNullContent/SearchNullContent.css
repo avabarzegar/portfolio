@@ -1,0 +1,32 @@
+.not-found-img{
+    width:480px;
+    height:auto;
+}
+.not-found-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.search-null-txt{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+@media screen and (max-width:992px) {
+    .not-found-img{
+        width:300px;
+     
+    }
+}
+@media screen and (max-width:768px) {
+    .not-found-img{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .not-found-img{
+        width:100%;
+        height:auto;
+    }
+}

@@ -1,0 +1,12 @@
+.parent-section-benefit-ghasedak{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin:4rem auto;
+}
+
+@media screen and (max-width:576px) {
+   .parent-section-benefit-ghasedak {
+      display: none;
+   }
+}
